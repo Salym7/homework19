@@ -195,17 +195,17 @@ a {
 }
 @media (max-width: 1000px) {
   .header__list {
-    gap: 30px;
+    gap: 20px;
   }
   .header__link-row {
-    gap: 30px;
+    gap: 20px;
   }
   .header .aside {
     padding-right: 10px;
   }
 }
 @media (max-width: 767px) {
-  .header__link-row {
+  .header__content-right {
     display: none;
   }
   .header__content-left {
@@ -222,7 +222,7 @@ a {
     background-color: transparent;
     border: none;
     outline: none;
-    padding: 0;
+    padding: 10px 0;
     position: relative;
     margin-left: auto;
   }
@@ -247,7 +247,6 @@ a {
 }
 @media (max-width: 475px) {
   .header .aside {
-    padding-right: 0;
     padding-right: 0;
   }
 }
